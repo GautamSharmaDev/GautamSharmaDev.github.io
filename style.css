@@ -1,39 +1,83 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #292b2c; /* Dark background color */
+    color: #ccc; /* Light text color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #212529; /* Darker background color */
+    color: #61dafb; /* Vibrant accent color */
+    text-align: center;
+    padding: 3em 1em;
+    position: relative;
+}
+
+nav {
+    background-color: #212529;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+nav a {
+    text-decoration: none;
+    color: #61dafb; /* Vibrant accent color */
+    font-weight: bold;
+    transition: border-bottom 0.3s ease-in-out;
 }
 
-header h1 {
-    margin: 0;
+nav a:hover {
+    border-bottom: 2px solid #61dafb; /* Vibrant accent color */
 }
 
 section {
-    padding: 40px 0;
+    margin: 2em;
 }
 
-h2 {
-    color: #333;
+section h2 {
+    color: #61dafb; /* Vibrant accent color */
+}
+
+section p {
+    color: #ccc; /* Light text color */
 }
 
 ul {
     list-style: none;
-    padding: 0;
 }
 
-li {
+ul li {
     margin-bottom: 8px;
 }
 
+.resume-link a {
+    color: #61dafb; /* Vibrant accent color */
+    text-decoration: none;
+}
+
+.resume-link a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #212529;
+    color: #ccc;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
