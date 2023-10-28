@@ -1,83 +1,49 @@
+/* Add your custom styles here */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #292b2c; /* Dark background color */
-    color: #ccc; /* Light text color */
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
 }
 
 header {
-    background-color: #212529; /* Darker background color */
-    color: #61dafb; /* Vibrant accent color */
     text-align: center;
-    padding: 3em 1em;
-    position: relative;
 }
 
-nav {
-    background-color: #212529;
-    padding: 1em 0;
-    text-align: center;
+h1, h2, h3, h4 {
+    color: #333;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-nav ul li {
+nav li {
     display: inline;
-    margin: 0 15px;
+    margin-right: 20px;
 }
 
-nav a {
+a {
+    color: #007bff;
     text-decoration: none;
-    color: #61dafb; /* Vibrant accent color */
-    font-weight: bold;
-    transition: border-bottom 0.3s ease-in-out;
-}
-
-nav a:hover {
-    border-bottom: 2px solid #61dafb; /* Vibrant accent color */
 }
 
 section {
-    margin: 2em;
-}
-
-section h2 {
-    color: #61dafb; /* Vibrant accent color */
-}
-
-section p {
-    color: #ccc; /* Light text color */
+    margin-bottom: 30px;
 }
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
-ul li {
-    margin-bottom: 8px;
-}
-
-.resume-link a {
-    color: #61dafb; /* Vibrant accent color */
-    text-decoration: none;
-}
-
-.resume-link a:hover {
-    text-decoration: underline;
+li {
+    margin-bottom: 5px;
 }
 
 footer {
-    background-color: #212529;
-    color: #ccc;
     text-align: center;
-    padding: 1em 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
